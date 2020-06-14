@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "N items of respective weight X to fit in Rucksack with max capacity of weight T",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,13 +13,15 @@
     "url": "git+https://github.com/joehannes-algorithm/knapsack.git"
   },
   "keywords": [
-    "'knapsack",
-    "problem'"
+    "knapsack problem"
   ],
   "author": "@joehannes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joehannes-algorithm/knapsack/issues"
   },
-  "homepage": "https://github.com/joehannes-algorithm/knapsack#readme"
+  "homepage": "https://github.com/joehannes-algorithm/knapsack#readme",
+  "dependencies": {
+    "random": "^2.2.0"
+  }
 }
